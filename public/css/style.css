@@ -200,6 +200,10 @@ nav a.l:hover { background: var(--panel2); color: var(--emerald); }
     transparent 0deg, var(--emerald) 80deg, var(--teal) 160deg,
     var(--neon) 240deg, var(--teal) 320deg, transparent 360deg);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+<<<<<<< HEAD
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+=======
+>>>>>>> 4c1e8a0b88cd7ea8aeb6d3e6f66f45ff6da1d91a
   -webkit-mask-composite: xor; mask-composite: exclude;
   opacity: 0.6; animation: spinAngle 12s linear infinite; pointer-events: none;
 }
