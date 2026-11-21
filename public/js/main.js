@@ -19,7 +19,6 @@
     'plus': '<svg viewBox="0 0 48 48"><path d="M24 10v28M10 24h28"/></svg>'
   };
 
-<<<<<<< HEAD
  var SERVICES = [
   {
     id: 'video-editing', name: 'Video Editing', c: 'green', kind: 'video',
@@ -102,7 +101,6 @@
     ]
   }
 ];
-=======
   var SERVICES = [
     { id: 'video-editing', name: 'Video Editing', c: 'green', kind: 'video', tags: ['YouTube', 'Reels', 'Brands'], short: 'Story-first edits, reels and brand videos that hold attention.',
       long: 'Raw footage in, a finished film out. We shape the story, tighten the pacing, add captions and clean up the sound so viewers stay to the end.',
@@ -125,7 +123,6 @@
       gets: ['App planning and UI design', 'Android and iOS apps', 'Backend and database setup', 'Testing and store launch'], fmt: 'Stack: Flutter, React Native, Firebase',
       works: [['Food delivery app', 'Mobile', 'iOS + Android'], ['Fitness tracker', 'Mobile', 'Android'], ['Salon booking app', 'Mobile', 'iOS + Android'], ['Inventory manager', 'Desktop', 'Windows'], ['School portal', 'Web + app', 'Cross-platform'], ['Expense tracker', 'Mobile', 'Android']] }
   ];
->>>>>>> 4c1e8a0b88cd7ea8aeb6d3e6f66f45ff6da1d91a
   var BS = ['green', 'magenta', 'sky', 'yellow', 'violet', 'orange', 'teal', 'lime'];
 
   function $(s, r) { return (r || document).querySelector(s); }
