@@ -3,7 +3,7 @@
   document.documentElement.classList.add('js');
 
   var CFG = {
-    email: 'theartists@gmail.com',
+    email: 'theartists.pk@gmail.com',
     whatsapp: '+92 315 7540129',
     hours: 'Mon to Sat, 10:00 to 18:00 (PKT)',
     tz: 'PKT',
