@@ -3,8 +3,8 @@
   document.documentElement.classList.add('js');
 
   var CFG = {
-    email: 'hello@yourdomain.com',
-    whatsapp: '+00 000 000 0000',
+    email: 'theartists@gmail.com',
+    whatsapp: '+92 315 7540129',
     hours: 'Mon to Sat, 10:00 to 18:00 (PKT)',
     tz: 'PKT',
     slots: ['10:00', '11:00', '12:00', '14:00', '15:00', '16:00', '17:00']
