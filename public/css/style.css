@@ -200,10 +200,7 @@ nav a.l:hover { background: var(--panel2); color: var(--emerald); }
     transparent 0deg, var(--emerald) 80deg, var(--teal) 160deg,
     var(--neon) 240deg, var(--teal) 320deg, transparent 360deg);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-<<<<<<< HEAD
   mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-=======
->>>>>>> 4c1e8a0b88cd7ea8aeb6d3e6f66f45ff6da1d91a
   -webkit-mask-composite: xor; mask-composite: exclude;
   opacity: 0.6; animation: spinAngle 12s linear infinite; pointer-events: none;
 }
@@ -1008,4 +1005,52 @@ img, svg, video, canvas { max-width: 100%; height: auto; }
   .hero-logo { height: 56px; }
   .btn { padding: 10px 16px; font-size: 0.9rem; }
   .cta-row .btn { min-width: 100%; }
+}
+/* ==================== BRAND HEADING (left of logo) ==================== */
+.brand {
+  gap: 14px;
+  align-items: center;
+}
+
+.brand-title {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  line-height: 1.1;
+  padding-right: 14px;
+  border-right: 1px solid var(--line2);
+  text-align: right;
+  transition: opacity 0.3s;
+}
+
+.brand-title b {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+  white-space: nowrap;
+}
+
+.brand-title small {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.brand:hover .brand-title b { color: var(--emerald); }
+
+/* Tablet */
+@media (max-width: 720px) {
+  .brand-title b { font-size: 0.82rem; }
+  .brand-title small { font-size: 9px; }
+  .brand-title { padding-right: 10px; gap: 0; }
+}
+
+/* Small phones — hide */
+@media (max-width: 480px) {
+  .brand-title { display: none; }
 }
